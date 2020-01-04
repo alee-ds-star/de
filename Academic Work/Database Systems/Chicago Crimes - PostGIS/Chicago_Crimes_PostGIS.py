@@ -161,10 +161,6 @@ from psycopg2.extensions import ISOLATION_LEVEL_AUTOCOMMIT
 
 db_connection = psycopg2.connect(host='',dbname="chicago_crimes", user="" , password="")
 
-
-
-
-
 cursor = db_connection.cursor()
 
 
